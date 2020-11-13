@@ -5,10 +5,24 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="store.css">
+<link rel="stylesheet" type="text/css" href="searchbar.css">
 <title>BelkanicOnline Store Page</title>
 	<style type="text/css">
-	
+			
+			.main{
+				position: relative;
+				top: 5px;
+				left: 250px;
+			
+			}
+			
+			input {
+				border: 3px solid #FFA500;
+				width: 300px;
+				border-radius: 50px;
+			
+			}
+
 			header {
 					color: white;
 					background: grey;
@@ -36,7 +50,7 @@
 			
 					color:white;
 				position: relative;
-				top: -40px;
+				top: -55px;
 				right: 0px;
 				bottom: 0px;
 				left: 215px;
@@ -74,6 +88,9 @@
 	</head>
 	<body>
 		<header>
+		<div class="main">
+			<input type="text" name="box" placeholder="Looking for something?">
+		</div>
 	  <a href="index.html" >Home</a>
 	  <a href="about.html" target="_blank">About</a>
 	  <a href="admin.html" target="_blank" >Admin</a>
